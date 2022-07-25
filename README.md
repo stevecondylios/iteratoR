@@ -1,6 +1,6 @@
 # iteratoR
 
-Place `iteration()` inside a loop and it will print the loop iteration to the console at useful intervals. Here'ss a demonstration
+Place `iteration()` inside a loop and it will print the loop iteration to the console at useful intervals. Here's a demonstration
 
 
 <img src="man/figures/iteratoR.gif">
@@ -14,11 +14,10 @@ This loop provides no feedback about where it is up to:
 ```r
 for(i in 1:100000) {
   2 * 2
-  iterator()
 }
 ```
 
-so simply place `iterator()` inside the loop to print the loop iteration at intervals of 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, etc, that way, you know where it is up to: 
+Place `iterator()` inside the loop to print the loop iteration at intervals of 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, etc: 
 
 ```r
 for(i in 1:100000) {
@@ -43,7 +42,7 @@ for(i in 1:100000) {
 
 ### Extras
 
-When the iterator is something other than 'i' (example: 'page')
+When the iterator is something other than 'i' (example: 'page'):
 
 ```r
 
@@ -54,7 +53,7 @@ for(page in 1:100000) {
 
 ```
 
-Use custom iteration intervals
+Use custom iteration intervals:
 
 ```r
 
@@ -68,7 +67,7 @@ for(i in 1:100000) {
 
 ### Performance
 
-`iteration()` may add considerable time to extremely fast loops
+`iteration()` may be great for slow or medium paced loops, but may add considerably to the execution time of extremely fast loops, so use with care:
 
 ```r
 # Performing 2 * 2 a billion times takes ~10 seconds without iterator()
