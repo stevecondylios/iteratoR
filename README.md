@@ -6,7 +6,7 @@ Place `iteration()` inside a loop and it will print the loop iteration to the co
 <img src="man/figures/iteratoR.gif">
 
 
-### Examples
+# Example
 
 
 This loop provides no feedback about where it is up to:
@@ -40,7 +40,7 @@ for(i in 1:100000) {
 ```
 
 
-### Extras
+# Extras
 
 When the iterator is something other than 'i' (example: 'page'):
 
@@ -65,7 +65,7 @@ for(i in 1:100000) {
 ```
 
 
-### Performance
+# Performance
 
 `iteration()` may be great for slow or medium paced loops, but may add considerably to the execution time of extremely fast loops, so use with care:
 
