@@ -50,7 +50,7 @@ library(iteratoR)
 
 for(i in 1:100000) {
   2 * 2
-  iterator()
+  iteration()
 }
 ```
 
