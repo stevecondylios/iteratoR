@@ -53,7 +53,7 @@
 #' # 5,000
 #' # 10,000
 #'
-#' # Use customer iteration intervals
+#' # Use custom iteration intervals
 #' for(i in 1:10000) {
 #'   2 * 2
 #'   iteration(iteration_values = seq(0, 1e4, 1e3))
