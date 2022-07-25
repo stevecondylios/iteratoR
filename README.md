@@ -8,7 +8,6 @@ Place `iteration()` inside a loop and it will print the loop iteration to the co
 
 # Example
 
-
 This loop provides no feedback about where it is up to:
 
 ```r
@@ -38,6 +37,23 @@ for(i in 1:100000) {
 # 50,000
 # 100,000
 ```
+
+
+# Installation
+
+Install from GitHub with `devtools::install_github("stevecondylios/iteratoR")`. Example:
+
+```r
+devtools::install_github("stevecondylios/iteratoR")
+
+library(iteratoR)
+
+for(i in 1:100000) {
+  2 * 2
+  iterator()
+}
+```
+
 
 
 # Extras
