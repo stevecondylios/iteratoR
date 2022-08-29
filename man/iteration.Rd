@@ -13,13 +13,13 @@ iteration(iterator_name, iteration_values)
 (defaults to the sequence 1, 2, 5, 10, 20, 50, 100, 200, 500 ....)}
 }
 \description{
-Prints to console the current loop iteration at custom or exponentially
-disparate intervals.
+Place inside a loop to automatically and conveniently print the
+current loop iteration at exponentially disparate (or custom) intervals.
 }
 \examples{
 
 # For a loop that would otherwise give no feedback as to where it is up to,
-# simply include iteration() to show progress
+# simply include iteration() anywhere inside the loop to show progress
 
 for(i in 1:10000) {
   2 * 2
