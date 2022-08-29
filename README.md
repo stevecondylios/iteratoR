@@ -1,4 +1,5 @@
-# iteratoR
+# iteratoR <a href='https://github.com/stevecondylios/iteratoR'><img src="man/figures/dark-logo.png" align="right" height="139" /></a>
+
 
 Place `iteration()` inside a loop and it will print the loop iteration to the console at useful intervals. Here's a demonstration
 
