@@ -12,6 +12,11 @@ iteration(iterator_name, iteration_values)
 \item{iteration_values}{An integer vector specifying loop iterations
 (defaults to the sequence 1, 2, 5, 10, 20, 50, 100, 200, 500 ....)}
 }
+\value{
+iteration() is a non-value-returning function. As such, it will not
+    return anything, and instead print to console the value representing the
+    current loop iteration.
+}
 \description{
 Place inside a loop to automatically and conveniently print the
 current loop iteration at exponentially disparate (or custom) intervals.
