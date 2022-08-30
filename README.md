@@ -104,3 +104,7 @@ for(i in 1:100000) {
 end_time <- Sys.time()
 end_time - start_time
 ```
+
+<hr>
+
+<p align="right">Logo Design by <a href="https://twitter.com/startrek_lt">Zane Dax</a></p>
